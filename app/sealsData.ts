@@ -2,7 +2,7 @@ export interface Seal {
   id: number;
   name: string;
   origin: string;
-  history: string;
+  history?: string;
   importance: string;
   image: string;
 }
