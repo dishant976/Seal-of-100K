@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Analytics } from '@vercel/analytics/react';  // Add this import
-import { SpeedInsights } from "@vercel/speed-insights/next";  // Add this import
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next";  // Make sure this import path is correct
 import "./globals.css";
 
 const geistSans = localFont({
