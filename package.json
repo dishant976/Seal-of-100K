@@ -20,8 +20,6 @@
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "shadcn-ui": "^0.2.3",
     "tailwind-merge": "^2.5.5"
-    "@vercel/analytics": "^x.x.x",
-    "@vercel/speed-insights": "^x.x.x"
   },
   "devDependencies": {
     "@types/node": "^20",
