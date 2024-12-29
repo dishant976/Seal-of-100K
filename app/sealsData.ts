@@ -5,6 +5,7 @@ export interface Seal {
   history?: string;
   importance: string;
   image: string;
+p5CodePath?: string;
 }
 
 export const sealsData = [
@@ -14,7 +15,9 @@ export const sealsData = [
     origin: "Mesopotamia",
     history: "The seal represents Sargon of Akkad, one of the world's first empire builders who established the Akkadian Empire around 2334 BCE. Sargon is known for uniting the Sumerian city-states and expanding his influence throughout Mesopotamia.",
     importance: "This seal symbolizes the political and cultural unification of Mesopotamian city-states under one ruler, representing one of the first empires in human history.",
-    image: "/images/seal1.jpg"
+    image: "/images/seal1.jpg",
+p5CodePath: "/lib/artworkRenderer1.js",
+
   },
   {
     id: 2,
@@ -22,7 +25,8 @@ export const sealsData = [
     origin: "Mesopotamia",
     history: "The Seal of Naram-Sin belonged to Sargon's grandson, Naram-Sin, who declared himself a god-king, a significant break from earlier traditions. He led the Akkadian Empire to its peak and expanded its territory.",
     importance: "It highlights the divine kingship concept in Mesopotamian governance, where rulers started to see themselves as gods on earth, reflecting the growing centralization of power.",
-image: "/images/seal2.jpg"
+image: "/images/seal2.jpg",
+p5CodePath: "/lib/artworkRenderer2.js",
   },
   {
     id: 3,
@@ -30,7 +34,8 @@ image: "/images/seal2.jpg"
     origin: "Sumer (Mesopotamia)",
     history: "This seal is associated with Gilgamesh, the legendary hero of Uruk, who is the main character of the Epic of Gilgamesh, one of the earliest pieces of literature. The story chronicles his adventures and his quest for immortality.",
     importance: "It symbolizes the pursuit of immortality, the heroic ideals of ancient Mesopotamian culture, and humanity's struggle against fate and mortality.",
-image: "/images/seal3.jpg"
+image: "/images/seal3.jpg",
+p5CodePath: "/lib/artworkRenderer3.js",
   },
   {
     id: 4,
@@ -38,7 +43,8 @@ image: "/images/seal3.jpg"
     origin: "Babylonia",
     history: "The Seal of Hammurabi is linked to King Hammurabi, who ruled Babylon around 1754 BCE. He is famous for the Code of Hammurabi, one of the earliest and most complete written legal codes in history.",
     importance: "This seal represents justice and the formalization of laws, reflecting the emergence of structured legal systems in ancient societies.",
-image: "/images/seal4.jpg"
+image: "/images/seal4.jpg",
+p5CodePath: "/lib/artworkRenderer4.js",
   },
   {
     id: 5,
@@ -46,7 +52,9 @@ image: "/images/seal4.jpg"
     origin: "Babylonia",
     history: "Dedicated to Ishtar, the goddess of love, fertility, and war. She was one of the most significant deities in Mesopotamian mythology, worshipped widely across the region.",
     importance: "The Ishtar Seal symbolizes fertility, love, and the dual aspects of creation and destruction, reflecting her role as a powerful, multifaceted goddess.",
-image: "/images/seal5.jpg"
+image: "/images/seal5.jpg",
+p5CodePath: "/lib/artworkRenderer5.js",
+
   },
   {
     id: 6,
@@ -54,7 +62,8 @@ image: "/images/seal5.jpg"
     origin: "Mesopotamia",
     history: "This seal is associated with Enki, the god of water, knowledge, and creation in Sumerian mythology. Enki was believed to have created the first humans and was revered for his wisdom.",
     importance: "It represents the essential elements of life, the importance of water in sustaining civilizations, and Enki's role as a god of knowledge and creation.",
-image: "/images/seal6.jpg"
+image: "/images/seal6.jpg",
+p5CodePath: "/lib/artworkRenderer6.js",
   },
   {
     id: 7,
@@ -62,7 +71,8 @@ image: "/images/seal6.jpg"
     origin: "Mesopotamia",
     history: "The Anunnaki Seal represents the pantheon of deities worshipped by the ancient Sumerians, Akkadians, and Babylonians. The Anunnaki were thought to be responsible for the creation of humanity and played a key role in Mesopotamian mythology.",
     importance: "This seal symbolizes divine intervention in the affairs of humanity and reflects the cultural beliefs regarding gods and their influence on human destiny.",
-image: "/images/seal7.jpg"
+image: "/images/seal7.jpg",
+p5CodePath: "/lib/artworkRenderer7.js",
   },
   {
     id: 8,
@@ -70,7 +80,8 @@ image: "/images/seal7.jpg"
     origin: "Babylonia",
     history: "This seal is linked to Marduk, the patron deity of Babylon, who rose to prominence during Hammurabi's reign. Marduk was credited with creating the world by defeating the chaos monster Tiamat.",
     importance: "The Seal of Marduk represents the triumph of order over chaos and Marduk's role as the supreme god of Babylon, reflecting the cultural values of power and order.",
-image: "/images/seal8.jpg"
+image: "/images/seal8.jpg",
+p5CodePath: "/lib/artworkRenderer8.js",
   },
   {
     id: 9,
@@ -78,7 +89,8 @@ image: "/images/seal8.jpg"
     origin: "Sumer (Mesopotamia)",
     history: "Used by the priest-kings of Uruk, this seal signifies the religious and administrative authority wielded by these rulers. Priest-kings played a crucial role in maintaining religious practices and overseeing economic activities.",
     importance: "It represents the fusion of political and religious power in early Mesopotamian city-states, where leaders were both temporal and spiritual authorities.",
-image: "/images/seal9.jpg"
+image: "/images/seal9.jpg",
+p5CodePath: "/lib/artworkRenderer9.js",
   },
   {
     id: 10,
@@ -86,7 +98,8 @@ image: "/images/seal9.jpg"
     origin: "Sumer (Mesopotamia)",
     history: "Dedicated to Inanna, the Sumerian goddess of love, fertility, and warfare. Inanna was one of the most revered deities, with numerous myths depicting her as a powerful, independent goddess.",
     importance: "The Seal of Inanna symbolizes the power of feminine divinity and the duality of love and conflict, showcasing the complex roles of deities in Sumerian culture.",
-image: "/images/seal10.jpg"
+image: "/images/seal10.jpg",
+p5CodePath: "/lib/artworkRenderer10.js",
   },
   {
     id: 11,
@@ -94,7 +107,8 @@ image: "/images/seal10.jpg"
     origin: "Ancient Egypt",
     history: "The Seal of Tutankhamun is associated with the young pharaoh Tutankhamun, who ruled Egypt during the 18th dynasty. His tomb, discovered in 1922, contained many artifacts, including seals that bore his name and titles.",
     importance: "This seal represents the wealth and mystery of ancient Egyptian royalty and the enduring fascination with Tutankhamun's relatively short reign and the treasures found in his tomb.",
-image: "/images/seal11.jpg"
+image: "/images/seal11.jpg",
+p5CodePath: "/lib/artworkRenderer11.js",
   },
   {
     id: 12,
@@ -102,7 +116,8 @@ image: "/images/seal11.jpg"
     origin: "Ancient Egypt",
     history: "The Cartouche Seal of Ramses II, one of Egypt's most powerful pharaohs, was used to mark official documents and artifacts. Ramses II is known for his extensive building projects and military campaigns.",
     importance: "This seal symbolizes the authority and grandeur of Ramses II, reflecting his efforts to immortalize his legacy through monumental architecture and inscriptions.",
-image: "/images/seal12.jpg"
+image: "/images/seal12.jpg",
+p5CodePath: "/lib/artworkRenderer12.js",
   },
   {
     id: 13,
@@ -110,7 +125,8 @@ image: "/images/seal12.jpg"
     origin: "Ancient Egypt",
     history: "The Ankh Seal represents the ankh, a symbol of life in ancient Egyptian culture. It was often used by pharaohs and priests in religious ceremonies and depicted in tombs and temples.",
     importance: "The Ankh Seal symbolizes eternal life and the divine power of the gods, highlighting the importance of the afterlife in Egyptian belief systems.",
-image: "/images/seal13.jpg"
+image: "/images/seal13.jpg",
+p5CodePath: "/lib/artworkRenderer13.js",
   },
   {
     id: 14,
@@ -118,7 +134,8 @@ image: "/images/seal13.jpg"
     origin: "Ancient Egypt",
     history: "The Djed Seal is associated with the djed pillar, a symbol of stability and strength, often linked to the god Osiris. The djed was used in rituals to ensure the deceased's safe passage to the afterlife.",
     importance: "This seal represents stability, resurrection, and the enduring power of Osiris, emphasizing the themes of rebirth and continuity in Egyptian mythology.",
-image: "/images/seal14.jpg"
+image: "/images/seal14.jpg",
+p5CodePath: "/lib/artworkRenderer14.js",
   },
   {
     id: 15,
@@ -126,7 +143,8 @@ image: "/images/seal14.jpg"
     origin: "Ancient Egypt",
     history: "The Horus Eye Seal, also known as the Wadjet or Eye of Horus, was a symbol of protection, health, and restoration. It was believed to have magical properties and was used as an amulet by both royalty and commoners.",
     importance: "This seal symbolizes protection and healing, reflecting the protective power of the god Horus and his role in avenging his father Osiris.",
-image: "/images/seal15.jpg"
+image: "/images/seal15.jpg",
+p5CodePath: "/lib/artworkRenderer15.js",
   },
   {
     id: 16,
@@ -134,7 +152,8 @@ image: "/images/seal15.jpg"
     origin: "Ancient Egypt",
     history: "The Isis Knot Seal, also known as the tyet, is associated with the goddess Isis. It was used as a protective symbol, often placed in tombs to safeguard the deceased.",
     importance: "This seal represents the protective and nurturing aspects of Isis, highlighting her role as a goddess of magic and motherhood.",
-image: "/images/seal16.jpg"
+image: "/images/seal16.jpg",
+p5CodePath: "/lib/artworkRenderer16.js",
   },
   {
     id: 17,
@@ -142,7 +161,8 @@ image: "/images/seal16.jpg"
     origin: "Ancient Egypt",
     history: "The Amun Seal is linked to Amun, one of the most important deities in Egyptian mythology, often referred to as the King of the Gods. Amun's worship reached its height during the New Kingdom.",
     importance: "This seal symbolizes divine kingship and the power of Amun, reflecting his central role in the religious and political life of ancient Egypt.",
-image: "/images/seal17.jpg"
+image: "/images/seal17.jpg",
+p5CodePath: "/lib/artworkRenderer17.js",
   },
   {
     id: 18,
@@ -150,7 +170,8 @@ image: "/images/seal17.jpg"
     origin: "Ancient Egypt",
     history: "The Osiris Seal is associated with Osiris, the god of the afterlife, resurrection, and fertility. Osiris was a central figure in Egyptian mythology, representing the cycle of death and rebirth.",
     importance: "This seal symbolizes the promise of eternal life and the hope for resurrection, reflecting the deep connection between kingship and the divine in Egyptian culture.",
-image: "/images/seal18.jpg"
+image: "/images/seal18.jpg",
+p5CodePath: "/lib/artworkRenderer18.js",
   },
   {
     id: 19,
@@ -158,7 +179,8 @@ image: "/images/seal18.jpg"
     origin: "Ancient Egypt",
     history: "The Sphinx Seal represents the Great Sphinx of Giza, a colossal statue that has stood as a guardian of the Giza Plateau for thousands of years. The sphinx is thought to represent Pharaoh Khafre.",
     importance: "This seal symbolizes mystery, protection, and the enduring legacy of ancient Egyptian civilization, highlighting the grandeur and ambition of its rulers.",
-image: "/images/seal19.jpg"
+image: "/images/seal19.jpg",
+p5CodePath: "/lib/artworkRenderer19.js",
   },
   {
     id: 20,
@@ -166,7 +188,8 @@ image: "/images/seal19.jpg"
     origin: "Egypt",
     history: "The Nefertiti Scarab Seal is associated with Queen Nefertiti, one of the most famous queens of ancient Egypt. Scarab seals were used as amulets and symbols of rebirth, often inscribed with the names of royalty.",
     importance: "This seal represents beauty, power, and the significant role of queens in Egyptian society, reflecting Nef",
-image: "/images/seal20.jpg"
+image: "/images/seal20.jpg",
+p5CodePath: "/lib/artworkRenderer20.js",
   },
   {
     id: 21,
@@ -174,7 +197,8 @@ image: "/images/seal20.jpg"
     origin: "The seal originates from the Greek god Apollo, one of the Olympian deities.",
     history: "Apollo was worshipped across ancient Greece as the god of light, music, prophecy, and healing. He was regarded as a symbol of harmony and the arts. Temples dedicated to Apollo, such as the famous Oracle of Delphi, were centers of cultural and spiritual significance.",
     importance: "The Seal of Apollo symbolizes creativity, knowledge, and the pursuit of truth. It represents the enlightening power of art, music, and intellectual pursuits.",
-image: "/images/seal21.jpg"
+image: "/images/seal21.jpg",
+p5CodePath: "/lib/artworkRenderer21.js",
   },
   {
     id: 22,
@@ -182,7 +206,8 @@ image: "/images/seal21.jpg"
     origin: "The owl is a sacred symbol of Athena, the goddess of wisdom and warfare in Greek mythology.",
     history: "The owl was frequently depicted on ancient Athenian coins, representing Athena’s protection and the intellectual prowess of Athens. Athena was considered the patron deity of the city of Athens.",
     importance: "This seal signifies strategic thinking, wisdom, and protection. It symbolizes the value of knowledge, vigilance, and the intellectual legacy of ancient Athens.",
-image: "/images/seal22.jpg"
+image: "/images/seal22.jpg",
+p5CodePath: "/lib/artworkRenderer22.js",
   },
   {
     id: 23,
@@ -190,7 +215,8 @@ image: "/images/seal22.jpg"
     origin: "Zeus, the king of the Greek gods, is the source of this seal's inspiration.",
     history: "Zeus was revered as the ruler of Mount Olympus, overseeing both gods and humans. His influence stretched across the ancient Greek world, where he was worshipped as a symbol of justice and authority.",
     importance: "The Seal of Zeus embodies leadership, justice, and divine rule. It represents the strength and authority that uphold order in society.",
-image: "/images/seal23.jpg"
+image: "/images/seal23.jpg",
+p5CodePath: "/lib/artworkRenderer23.js",
   },
   {
     id: 24,
@@ -198,7 +224,8 @@ image: "/images/seal23.jpg"
     origin: "This seal is derived from Poseidon, the god of the sea, earthquakes, and horses in Greek mythology.",
     history: "Poseidon wielded the trident, a three-pronged spear, as his symbol of power. He was worshipped particularly in coastal areas where his influence over the sea was most keenly felt.",
     importance: "The trident seal symbolizes the power of the ocean, natural forces, and Poseidon’s control over both water and earth. It represents the elemental forces that shape the world.",
-image: "/images/seal24.jpg"
+image: "/images/seal24.jpg",
+p5CodePath: "/lib/artworkRenderer24.js",
   },
   {
     id: 25,
@@ -206,7 +233,8 @@ image: "/images/seal24.jpg"
     origin: "The seal comes from Hades, the god of the underworld and ruler of the dead in Greek mythology.",
     history: "Hades was often misunderstood, seen as a grim figure, but he played a crucial role in maintaining the balance of life and death. He was also associated with the earth’s hidden wealth, including precious metals and gems.",
     importance: "The Seal of Hades represents the mysteries of the afterlife, the inevitability of death, and hidden riches. It serves as a reminder of life’s cycles and the unknown.",
-image: "/images/seal25.jpg"
+image: "/images/seal25.jpg",
+p5CodePath: "/lib/artworkRenderer25.js",
   },
   {
     id: 26,
@@ -214,7 +242,8 @@ image: "/images/seal25.jpg"
     origin: "This seal is inspired by Heracles (Hercules) and his first labor, the slaying of the Nemean Lion.",
     history: "Heracles, a legendary hero in Greek mythology, was known for his incredible strength and heroic deeds. The Nemean Lion was an indomitable beast whose hide was impervious to weapons, and Heracles’ victory over it was a testament to his strength and ingenuity.",
     importance: "The lion seal symbolizes courage, resilience, and triumph over adversity. It represents the heroic spirit and the capacity to overcome insurmountable challenges.",
-image: "/images/seal26.jpg"
+image: "/images/seal26.jpg",
+p5CodePath: "/lib/artworkRenderer26.js",
   },
   {
     id: 27,
@@ -222,7 +251,8 @@ image: "/images/seal26.jpg"
     origin: "This seal is associated with Aphrodite, the Greek goddess of love, beauty, and desire.",
     history: "The dove was sacred to Aphrodite and often depicted in her imagery. She was worshipped as the bringer of love, harmony, and attraction, with temples dedicated to her throughout Greece.",
     importance: "The dove seal symbolizes love, beauty, and peace. It represents the power of love to bring harmony and joy into the world.",
-image: "/images/seal27.jpg"
+image: "/images/seal27.jpg",
+p5CodePath: "/lib/artworkRenderer27.js",
   },
   {
     id: 28,
@@ -230,7 +260,8 @@ image: "/images/seal27.jpg"
     origin: "The Minotaur, a mythical creature, is the inspiration behind this seal.",
     history: "The Minotaur, part man and part bull, was kept in the labyrinth built by Daedalus in Crete. It was ultimately defeated by the hero Theseus, symbolizing the triumph of human ingenuity over monstrous challenges.",
     importance: "The Minotaur seal represents the duality of human nature and the internal struggle between civility and primal instincts. It embodies the challenges one must face and overcome to achieve clarity and self-understanding.",
-image: "/images/seal28.jpg"
+image: "/images/seal28.jpg",
+p5CodePath: "/lib/artworkRenderer28.js",
   },
   {
     id: 29,
@@ -238,7 +269,8 @@ image: "/images/seal28.jpg"
     origin: "The eagle was a prominent symbol of the Roman Empire, representing its military might and governance.",
     history: "The eagle (Aquila) was used as a standard by the Roman legions, embodying the strength and authority of Rome. It was a symbol of the expansive power and discipline of the Roman military.",
     importance: "The Roman Eagle Seal symbolizes leadership, courage, and the spirit of empire. It represents the authority and governance that characterized the Roman Empire.",
-image: "/images/seal29.jpg"
+image: "/images/seal29.jpg",
+p5CodePath: "/lib/artworkRenderer29.js",
   },
   {
     id: 30,
@@ -246,7 +278,8 @@ image: "/images/seal29.jpg"
     origin: "This seal is derived from Jupiter, the chief deity in Roman mythology, equivalent to Zeus in Greek mythology.",
     history: "Jupiter was considered the protector of the Roman state, and his worship was central to Roman religion. He was the god of sky and thunder, symbolizing the supreme authority of the divine.",
     importance: "The Seal of Jupiter represents power, justice, and divine protection. It symbolizes the highest authority and the upholding of law and order.",
-image: "/images/seal30.jpg"
+image: "/images/seal30.jpg",
+p5CodePath: "/lib/artworkRenderer30.js",
   },
   {
     id: 31,
@@ -254,7 +287,8 @@ image: "/images/seal30.jpg"
     origin: "This seal originates from the Indus Valley Civilization, specifically from the ancient city of Mohenjo-daro.",
     history: "The unicorn seal is one of the most well-known artifacts of the Indus Valley, featuring a mythical unicorn-like creature. These seals were used for trade and administrative purposes and are a testament to the complex society of the Indus Valley.",
     importance: "The Mohenjo-daro Unicorn Seal represents the mystery and advancement of the Indus Valley Civilization. It symbolizes trade, communication, and the enigmatic culture of one of the world's earliest urban societies.",
-image: "/images/seal31.jpg"
+image: "/images/seal31.jpg",
+p5CodePath: "/lib/artworkRenderer31.js",
   },
   {
     id: 32,
@@ -262,7 +296,8 @@ image: "/images/seal31.jpg"
     origin: "The Pashupati Seal also comes from the Indus Valley Civilization, depicting a figure seated in a yogic posture.",
     history: "This seal is thought to represent a proto-Shiva figure, possibly an early form of the Hindu god Shiva. The figure is surrounded by animals, symbolizing a connection to nature.",
     importance: "The Pashupati Seal is significant as it provides insight into early religious practices in the Indus Valley. It symbolizes meditation, harmony with nature, and possibly the roots of Hindu religious traditions.",
-image: "/images/seal32.jpg"
+image: "/images/seal32.jpg",
+p5CodePath: "/lib/artworkRenderer32.js",
   },
   {
     id: 33,
@@ -270,7 +305,8 @@ image: "/images/seal32.jpg"
     origin: "This seal is inspired by Garuda, a mythical bird-like creature in Hindu and Buddhist mythology.",
     history: "Garuda is considered the mount of the god Vishnu and is often depicted as a protector against evil. In Hindu and Buddhist traditions, Garuda symbolizes power, speed, and martial prowess.",
     importance: "The Garuda Seal represents strength, protection, and devotion. It embodies the qualities of courage and loyalty, serving as a guardian against evil forces.",
-image: "/images/seal33.jpg"
+image: "/images/seal33.jpg",
+p5CodePath: "/lib/artworkRenderer33.js",
   },
   {
     id: 34,
@@ -278,7 +314,8 @@ image: "/images/seal33.jpg"
     origin: "The seal is derived from the Sudarshana Chakra, the divine discus wielded by the Hindu god Vishnu.",
     history: "The chakra is a symbol of divine power and cosmic order. Vishnu uses it to protect dharma (righteousness) and maintain balance in the universe. It is one of Vishnu’s primary attributes.",
     importance: "The Chakra Seal of Vishnu represents divine order, protection, and the maintenance of cosmic balance. It symbolizes righteousness and the power to destroy evil.",
-image: "/images/seal34.jpg"
+image: "/images/seal34.jpg",
+p5CodePath: "/lib/artworkRenderer34.js",
   },
   {
     id: 35,
@@ -286,7 +323,8 @@ image: "/images/seal34.jpg"
     origin: "The Shiva Linga is a representation of Lord Shiva, symbolizing his cosmic energy and creative power.",
     history: "The linga is one of the most important symbols in Hindu worship, representing both the formless aspect of Shiva and the union of masculine and feminine energies. It has been worshipped for centuries across India.",
     importance: "The Shiva Linga Seal represents creation, transformation, and the infinite nature of the universe. It symbolizes the divine energy that underlies all existence.",
-image: "/images/seal35.jpg"
+image: "/images/seal35.jpg",
+p5CodePath: "/lib/artworkRenderer35.js",
   },
   {
     id: 36,
@@ -294,7 +332,8 @@ image: "/images/seal35.jpg"
     origin: "This seal is inspired by the goddess Kali, a fierce aspect of the Divine Mother in Hindu mythology.",
     history: "Kali is known as the destroyer of evil forces and is often depicted in a fearsome form, representing time, change, and destruction. She is also worshipped as the mother who liberates her children from the cycle of karma.",
     importance: "The Seal of Kali symbolizes transformation, destruction of negativity, and liberation. It represents the power of change and the cycle of creation and dissolution.",
-image: "/images/seal36.jpg"
+image: "/images/seal36.jpg",
+p5CodePath: "/lib/artworkRenderer36.js",
   },
   {
     id: 37,
@@ -302,7 +341,8 @@ image: "/images/seal36.jpg"
     origin: "This seal comes from the Dharma Wheel (Dharmachakra), a symbol associated with the teachings of Gautama Buddha.",
     history: "The Dharma Wheel represents the path to enlightenment and the Buddha’s teachings. It is one of the oldest symbols in Buddhism, symbolizing the Eightfold Path and the turning of the wheel of law.",
     importance: "Buddha’s Dharma Wheel Seal represents spiritual awakening, the spread of knowledge, and the journey towards enlightenment. It embodies the values of compassion, wisdom, and moral discipline.",
-image: "/images/seal37.jpg"
+image: "/images/seal37.jpg",
+p5CodePath: "/lib/artworkRenderer37.js",
   },
  {
     id: 38,
@@ -310,7 +350,8 @@ image: "/images/seal37.jpg"
     origin: "This seal is inspired by Hanuman, the monkey god from Hindu mythology known for his devotion and strength.",
     history: "Hanuman is a central figure in the Ramayana, where he plays a key role in assisting Lord Rama in his quest to rescue Sita. He is worshipped as a symbol of devotion, strength, and selfless service.",
     importance: "Hanuman's Seal symbolizes devotion, courage, and loyalty. It represents the power of selfless love and the ability to overcome obstacles through faith and determination.",
-    image: "/images/seal38.jpg"   
+    image: "/images/seal38.jpg",
+p5CodePath: "/lib/artworkRenderer38.js",   
   },
   {
     id: 39,
@@ -318,7 +359,8 @@ image: "/images/seal37.jpg"
     origin: "Yakshas are nature spirits in Hindu, Buddhist, and Jain mythology, often depicted as guardians of the natural world.",
     history: "Yakshas were believed to be protectors of treasures hidden in the earth, and they were associated with fertility, wealth, and the natural world. They were often depicted as benevolent guardians but could also be fearsome when provoked.",
     importance: "The Yaksha Seal represents the guardianship of nature, prosperity, and the mysteries of the natural world. It embodies the connection between humanity and the environment.",
-image: "/images/seal39.jpg"
+image: "/images/seal39.jpg",
+p5CodePath: "/lib/artworkRenderer39.js",
   },
   {
     id: 40,
@@ -326,7 +368,8 @@ image: "/images/seal39.jpg"
     origin: "The thunderbolt (Vajra) is the weapon of Indra, the king of the gods in Hindu mythology.",
     history: "Indra, the god of rain and thunderstorms, wields the thunderbolt as a symbol of his power over the elements. He was worshipped as the chief deity in Vedic traditions, responsible for bringing rain and prosperity.",
     importance: "Indra’s Thunderbolt Seal represents strength, power, and the ability to overcome obstacles. It symbolizes divine authority and the force that drives away darkness and ignorance.",
-image: "/images/seal40.jpg"
+image: "/images/seal40.jpg",
+p5CodePath: "/lib/artworkRenderer40.js",
   },
   {
     id: 41,
@@ -334,7 +377,8 @@ image: "/images/seal40.jpg"
     origin: "This seal originates from ancient Chinese mythology, symbolizing the authority and power of the Dragon Emperor, a mythical ruler believed to have divine attributes.",
     history: "The Dragon Emperor was often considered the embodiment of cosmic forces, representing the balance between heaven and earth. The seal has been used in various dynasties to signify imperial power and the divine right to rule.",
     importance: "The Seal of the Dragon Emperor represents ultimate authority, wisdom, and the unification of all elements under one ruler.",
-image: "/images/seal41.jpg"
+image: "/images/seal41.jpg",
+p5CodePath: "/lib/artworkRenderer41.js",
   },
   {
     id: 42,
@@ -342,7 +386,8 @@ image: "/images/seal41.jpg"
     origin: "The Phoenix Seal comes from Chinese and East Asian mythology, where the phoenix symbolizes rebirth, immortality, and grace.",
     history: "The phoenix is often depicted alongside the dragon, representing balance and harmony between feminine and masculine forces. The seal has been associated with empresses and female sovereignty throughout history.",
     importance: "This seal signifies renewal, resurrection, and the enduring spirit, often used as a symbol of hope and transformation.",
-image: "/images/seal42.jpg"
+image: "/images/seal42.jpg",
+p5CodePath: "/lib/artworkRenderer42.js",
   },
   {
     id: 43,
@@ -350,7 +395,8 @@ image: "/images/seal42.jpg"
     origin: "The Yin-Yang Seal is rooted in Taoist philosophy, representing the duality of nature.",
     history: "The concept of yin and yang dates back to ancient China, symbolizing the interconnected forces of darkness and light, feminine and masculine, and passive and active energies.",
     importance: "This seal emphasizes the importance of balance and harmony in all aspects of life, embodying the idea that opposites are complementary.",
-image: "/images/seal43.jpg"
+image: "/images/seal43.jpg",
+p5CodePath: "/lib/artworkRenderer43.js",
   },
   {
     id: 44,
@@ -358,7 +404,8 @@ image: "/images/seal43.jpg"
     origin: "Derived from Confucian teachings, this seal symbolizes wisdom, virtue, and moral integrity.",
     history: "Confucius, the great Chinese philosopher, emphasized the importance of righteousness, ethics, and social harmony. Jade, a precious stone, was often associated with purity and high moral value.",
     importance: "The Confucian Jade Seal represents moral leadership, education, and the pursuit of knowledge.",
-image: "/images/seal44.jpg"
+image: "/images/seal44.jpg",
+p5CodePath: "/lib/artworkRenderer44.js",
   },
   {
     id: 45,
@@ -366,7 +413,8 @@ image: "/images/seal44.jpg"
     origin: "This seal is linked to the Jade Emperor, the supreme deity in Chinese mythology.",
     history: "The Jade Emperor is considered the ruler of heaven and all realms of existence, governing the deities and maintaining order in the cosmos.",
     importance: "The Seal of the Jade Emperor symbolizes divine authority, order, and the celestial hierarchy.",
-image: "/images/seal45.jpg"
+image: "/images/seal45.jpg",
+p5CodePath: "/lib/artworkRenderer45.js",
   },
   {
     id: 46,
@@ -374,7 +422,8 @@ image: "/images/seal45.jpg"
     origin: "This seal is associated with Laozi, the founder of Taoism.",
     history: "Laozi is believed to have written the Tao Te Ching, a foundational text of Taoism that emphasizes living in harmony with the Tao, or the natural way of the universe.",
     importance: "The Seal of Laozi represents wisdom, simplicity, and the natural flow of life.",
-image: "/images/seal46.jpg"
+image: "/images/seal46.jpg",
+p5CodePath: "/lib/artworkRenderer46.js",
   },
   {
     id: 47,
@@ -382,7 +431,8 @@ image: "/images/seal46.jpg"
     origin: "This seal dates back to the Qin Dynasty, established by Emperor Qin Shi Huang, the first emperor of a unified China.",
     history: "Qin Shi Huang is known for unifying China, constructing the Great Wall, and standardizing many aspects of Chinese society.",
     importance: "The Qin Emperor’s Seal symbolizes unity, strength, and the beginning of a centralized Chinese state.",
-image: "/images/seal47.jpg"
+image: "/images/seal47.jpg",
+p5CodePath: "/lib/artworkRenderer47.js",
   },
   {
     id: 48,
@@ -390,7 +440,8 @@ image: "/images/seal47.jpg"
     origin: "This seal is inspired by Fu Xi and Nu Wa, two important deities in Chinese mythology credited with creating humanity.",
     history: "Fu Xi is often depicted as the inventor of writing, hunting, and fishing, while Nu Wa is known for creating humans from clay and repairing the sky.",
     importance: "The Fu Xi and Nu Wa Seal represents creation, innovation, and the nurturing aspects of the divine.",
-image: "/images/seal48.jpg"
+image: "/images/seal48.jpg",
+p5CodePath: "/lib/artworkRenderer48.js",
   },
   {
     id: 49,
@@ -398,7 +449,8 @@ image: "/images/seal48.jpg"
     origin: "The Seal of Kuan Yin is derived from the bodhisattva Avalokiteshvara, known in East Asia as Kuan Yin, the goddess of compassion.",
     history: "Kuan Yin is venerated throughout East Asia as the embodiment of mercy and compassion, often invoked for protection and healing.",
     importance: "This seal symbolizes compassion, mercy, and the alleviation of suffering.",
-image: "/images/seal49.jpg"
+image: "/images/seal49.jpg",
+p5CodePath: "/lib/artworkRenderer49.js",
   },
   {
     id: 50,
@@ -406,7 +458,8 @@ image: "/images/seal49.jpg"
     origin: "The Vermilion Bird Seal is inspired by the Vermilion Bird, one of the Four Symbols of Chinese mythology, representing the southern direction and summer.",
     history: "The Vermilion Bird is associated with fire, vitality, and the element of warmth. It is often depicted in Chinese art and astrology as a protector.",
     importance: "This seal represents protection, vitality, and the transformative power of fire.",
-image: "/images/seal50.jpg"
+image: "/images/seal50.jpg",
+p5CodePath: "/lib/artworkRenderer50.js",
   },
   {
     id: 51,
@@ -414,7 +467,8 @@ image: "/images/seal50.jpg"
     origin: "This seal is based on Mjölnir, the hammer of Thor, the Norse god of thunder.",
     history: "Thor’s hammer was used to protect Asgard, the realm of the gods, and was a symbol of protection and power in Norse mythology.",
     importance: "The Thor’s Hammer Seal represents strength, protection, and the power to overcome obstacles.",
-image: "/images/seal51.jpg"
+image: "/images/seal51.jpg",
+p5CodePath: "/lib/artworkRenderer51.js",
   },
   {
     id: 52,
@@ -422,7 +476,8 @@ image: "/images/seal51.jpg"
     origin: "This seal is connected to Odin, the chief god in Norse mythology, who sacrificed one of his eyes for wisdom.",
     history: "Odin’s quest for knowledge led him to sacrifice an eye at Mimir's well, gaining insight into the mysteries of the universe.",
     importance: "The Odin’s Eye Seal symbolizes wisdom, sacrifice, and the pursuit of knowledge.",
-image: "/images/seal52.jpg"
+image: "/images/seal52.jpg",
+p5CodePath: "/lib/artworkRenderer52.js",
   },
   {
     id: 53,
@@ -430,7 +485,8 @@ image: "/images/seal52.jpg"
     origin: "This seal represents Fenrir, the monstrous wolf from Norse mythology.",
     history: "Fenrir is the son of Loki and is prophesied to bring about great destruction during Ragnarok, the end of the world in Norse mythology.",
     importance: "The Fenrir Seal symbolizes chaos, untamed power, and the inevitable cycle of destruction and rebirth.",
-image: "/images/seal53.jpg"
+image: "/images/seal53.jpg",
+p5CodePath: "/lib/artworkRenderer53.js",
   },
   {
     id: 54,
@@ -438,7 +494,8 @@ image: "/images/seal53.jpg"
     origin: "This seal is associated with Loki, the Norse god of mischief.",
     history: "Loki is known for his cunning and ability to change shape, often causing trouble for both gods and humans.",
     importance: "The Loki’s Trickster Seal represents adaptability, change, and the unpredictable nature of life.",
-image: "/images/seal54.jpg"
+image: "/images/seal54.jpg",
+p5CodePath: "/lib/artworkRenderer54.js",
   },
   {
     id: 55,
@@ -446,7 +503,8 @@ image: "/images/seal54.jpg"
     origin: "The World Tree Seal is inspired by Yggdrasil, the immense ash tree that connects the nine worlds in Norse mythology.",
     history: "Yggdrasil is central to Norse cosmology, with its roots and branches linking the various realms of gods, giants, and humans.",
     importance: "This seal symbolizes interconnectedness, the cycle of life, and the unity of all existence.",
-image: "/images/seal55.jpg"
+image: "/images/seal55.jpg",
+p5CodePath: "/lib/artworkRenderer55.js",
   },
   {
     id: 56,
@@ -454,7 +512,8 @@ image: "/images/seal55.jpg"
     origin: "This seal is inspired by Brísingamen, the necklace of Freya, the Norse goddess of love, beauty, and fertility.",
     history: "Brísingamen was a symbol of Freya's allure and power, often sought after by gods and mortals alike.",
     importance: "The Freya’s Necklace Seal represents beauty, love, and the enchanting power of desire.",
-image: "/images/seal56.jpg"
+image: "/images/seal56.jpg",
+p5CodePath: "/lib/artworkRenderer56.js",
   },
   {
     id: 57,
@@ -462,7 +521,8 @@ image: "/images/seal56.jpg"
     origin: "This seal is associated with the Morrigan, a goddess from Celtic mythology known for her connection to war and fate.",
     history: "The Morrigan is often depicted as a shape-shifter, taking the form of a crow or raven, and is associated with battle and prophecy.",
     importance: "The Seal of the Morrigan symbolizes transformation, fate, and the mysteries of life and death.",
-image: "/images/seal57.jpg"
+image: "/images/seal57.jpg",
+p5CodePath: "/lib/artworkRenderer57.js",
   },
   {
     id: 58,
@@ -470,7 +530,8 @@ image: "/images/seal57.jpg"
     origin: "The Celtic Knot Seal is derived from traditional Celtic knotwork, which represents eternity and the interconnectedness of all things.",
     history: "Celtic knots have been used for centuries in art and symbolism, often found in ancient manuscripts and carvings.",
     importance: "This seal represents eternity, unity, and the unbreakable bonds that connect all life.",
-image: "/images/seal58.jpg"
+image: "/images/seal58.jpg",
+p5CodePath: "/lib/artworkRenderer58.js",
   },
   {
     id: 59,
@@ -478,7 +539,8 @@ image: "/images/seal58.jpg"
     origin: "This seal is inspired by the Dagda, a chief god in Celtic mythology, who possessed a magical harp that could control emotions and seasons.",
     history: "The Dagda’s harp was known for its ability to bring joy, sorrow, and sleep, as well as to change the seasons.",
     importance: "The Dagda’s Harp Seal symbolizes harmony, the power of music, and the natural cycles of life.",
-image: "/images/seal59.jpg"
+image: "/images/seal59.jpg",
+p5CodePath: "/lib/artworkRenderer59.js",
   },
   {
     id: 60,
@@ -486,7 +548,8 @@ image: "/images/seal59.jpg"
     origin: "This seal represents the Banshee, a spirit from Irish folklore known for her mournful wail, which is said to foretell death.",
     history: "The Banshee is a harbinger of death, often appearing to warn families of impending loss. Her cry is both feared and respected.",
     importance: "The Seal of the Banshee symbolizes fate, the inevitability of death, and the connection between the physical and spiritual realms.",
-image: "/images/seal60.jpg"
+image: "/images/seal60.jpg",
+p5CodePath: "/lib/artworkRenderer60.js",
   },
   {
     id: 61,
