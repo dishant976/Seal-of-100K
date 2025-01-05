@@ -18,6 +18,7 @@ const SealCard = ({ seal, onClick }: { seal: Seal; onClick: () => void }) => {
             src={seal.image}
             alt={seal.name}
             fill
+            priority // Added priority for better LCP
             className="object-cover rounded-lg"
             onError={() => setImageError(true)}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -38,7 +39,6 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
   const [imageError, setImageError] = useState(false);
 
   const openP5Window = () => {
-    // Open a new fullscreen window
     const newWindow = window.open(
       "",
       "_blank",
@@ -73,7 +73,6 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
                 z-index: 1000;
               }
             </style>
-            <!-- Load p5.js first, then the artworkRenderer.js file -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
             <script src="/lib/artworkRenderer${seal.id}.js"></script>
           </head>
@@ -95,6 +94,7 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
               src={seal.image}
               alt={seal.name}
               fill
+              priority
               className="object-cover rounded-lg"
               onError={() => setImageError(true)}
               sizes="(max-width: 1200px) 100vw, 50vw"
