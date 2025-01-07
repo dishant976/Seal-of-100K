@@ -1,29 +1,31 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import { NextConfig } from 'next';
+import type { Configuration } from 'webpack';
+
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+
+  // Configure the static image loader for Next.js
   images: {
-    domains: [],
-    unoptimized: true, // Keep if not using Next image optimization
+    unoptimized: true, // Disable image optimization for debugging
+    domains: ['localhost'], // Add other external image domains if needed
   },
-  async headers() {
-    return [
-      {
-        // Apply this CSP to all routes
-        source: "/(.*)",
-        headers: [
-          {
-            key: "Content-Security-Policy",
-            value: `
-              default-src 'self';
-              script-src 'self' 'unsafe-inline' 'unsafe-eval';
-              connect-src 'self';
-              img-src 'self' data:;
-              style-src 'self' 'unsafe-inline';
-              font-src 'self';
-            `.replace(/\n/g, ""), 
-          },
-        ],
-      },
-    ];
+
+  // Fix the assetPrefix to use a leading slash
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
+
+  // Enable Webpack configurations for better debugging and customizations
+  webpack: (config: Configuration, { isServer }: { isServer: boolean }) => {
+    // Allow serving scripts directly from /lib
+    if (!isServer) {
+      if (config.module?.rules) {
+        config.module.rules.push({
+          test: /\.(js|jsx)$/,
+          exclude: /node_modules/,
+          loader: 'babel-loader',
+        });
+      }
+    }
+    return config;
   },
 };
 
