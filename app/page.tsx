@@ -18,7 +18,6 @@ const SealCard = ({ seal, onClick }: { seal: Seal; onClick: () => void }) => {
             src={seal.image}
             alt={seal.name}
             fill
-            priority // Added priority for better LCP
             className="object-cover rounded-lg"
             onError={() => setImageError(true)}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -73,8 +72,9 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
                 z-index: 1000;
               }
             </style>
+            <!-- Load p5.js first, then the artworkRenderer.js file -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-            <script src="/lib/artworkRenderer${seal.id}.js"></script>
+            <script src="/lib/artworkRenderer${seal.id}.js"></script> <!-- Ensure script exists -->
           </head>
           <body>
             <button class="close-button" onclick="window.close()">Close</button>
@@ -94,7 +94,6 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
               src={seal.image}
               alt={seal.name}
               fill
-              priority
               className="object-cover rounded-lg"
               onError={() => setImageError(true)}
               sizes="(max-width: 1200px) 100vw, 50vw"
@@ -144,7 +143,7 @@ export default function Home() {
       <div className="bg-gradient-to-r from-orange-600 to-orange-500 text-white p-8 rounded-lg mb-8">
         <h1 className="text-4xl font-bold mb-2">SEAL OF 100K</h1>
         <p className="opacity-90 mb-4">
-          Seal of 100K connecting Art, Mythology and Bitcoin by generating an
+          Seal of 100K connecting Art, Mythology, and Bitcoin by generating an
           artwork using recursion symbolising humanity&apos;s greatest
           achievement in Age of Aquarius.
         </p>
