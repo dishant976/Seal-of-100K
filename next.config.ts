@@ -1,5 +1,4 @@
-import { NextConfig } from 'next';
-import type { Configuration } from 'webpack';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -14,8 +13,7 @@ const nextConfig: NextConfig = {
   assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
 
   // Enable Webpack configurations for better debugging and customizations
-  webpack: (config: Configuration, { isServer }: { isServer: boolean }) => {
-    // Allow serving scripts directly from /lib
+  webpack: (config, { isServer }) => {
     if (!isServer) {
       if (config.module?.rules) {
         config.module.rules.push({
