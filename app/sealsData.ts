@@ -556,140 +556,160 @@ p5CodePath: "/lib/artworkRenderer60.js",
     name: "Mayan Jaguar Seal",
     origin: "This seal draws from the Mayan civilization, where the jaguar was revered as a powerful symbol of night and the underworld. The jaguar was believed to possess the ability to cross between realms, embodying the mysticism of the Mayan cosmos.",
     importance: "The Jaguar Seal represents power, courage, and the ability to navigate the spiritual and physical worlds. It embodies a connection with ancient Mayan culture and their understanding of nature's cycles.",
-image: "/images/seal61.jpg"
+image: "/images/seal61.jpg",
+p5CodePath: "/lib/artworkRenderer61.js",
   },
   {
     id: 62,
     name: "Quetzalcoatl’s Seal",
     origin: "Quetzalcoatl, the feathered serpent, was one of the most important gods in Mesoamerican culture, symbolizing wind, air, and the arts. Worshiped by the Aztecs and other pre-Columbian civilizations, Quetzalcoatl was seen as a creator god.",
     importance: "This seal represents creation, knowledge, and harmony. It is symbolic of renewal and transformation, emphasizing the cyclical nature of existence.",
-image: "/images/seal62.jpg"
+image: "/images/seal62.jpg",
+p5CodePath: "/lib/artworkRenderer62.js",
   },
   {
     id: 63,
     name: "Tezcatlipoca’s Mirror Seal",
     origin: "Tezcatlipoca, the Aztec god of night, sorcery, and destiny, was often depicted with a smoking obsidian mirror, representing the capacity to see into the human heart.",
     importance: "The Mirror Seal represents introspection, destiny, and the balance between light and shadow. It signifies the importance of facing one's truth and understanding the duality of existence.",
-image: "/images/seal63.jpg"
+image: "/images/seal63.jpg",
+p5CodePath: "/lib/artworkRenderer63.js",
   },
   {
     id: 64,
     name: "The Seal of Huitzilopochtli",
     origin: "Huitzilopochtli was the Aztec god of war and the sun, responsible for guiding the Mexica people to their promised land. He was a symbol of the sun's daily battle against darkness.",
     importance: "This seal represents strength, leadership, and sacrifice. It embodies the pursuit of purpose and the courage required to overcome obstacles.",
-image: "/images/seal64.jpg"
+image: "/images/seal64.jpg",
+p5CodePath: "/lib/artworkRenderer64.js",
   },
   {
     id: 65,
     name: "The Seal of Tlaloc",
     origin: "Tlaloc was the Aztec god of rain, fertility, and water. His power was essential for agriculture and the prosperity of the people.",
     importance: "This seal symbolizes abundance, growth, and sustenance. It represents the essential relationship between humankind and the natural world, particularly the reliance on rain and fertility for survival.",
-image: "/images/seal65.jpg"
+image: "/images/seal65.jpg",
+p5CodePath: "/lib/artworkRenderer65.js",
   },
   {
     id: 66,
     name: "Incan Sun God Seal",
     origin: "The Incan Sun God, Inti, was one of the most revered deities of the Incan Empire. Inti was believed to be the ancestor of the Incan rulers and the source of all life.",
     importance: "This seal represents life, vitality, and divine right. It signifies the central role of the sun in Incan culture and its importance in maintaining harmony and prosperity.",
-image: "/images/seal66.jpg"
+image: "/images/seal66.jpg",
+p5CodePath: "/lib/artworkRenderer66.js",
   },
   {
     id: 67,
     name: "Seal of the Thunderbird",
     origin: "The Thunderbird is a significant figure in Native American mythology, especially among the tribes of the Pacific Northwest. It is seen as a powerful spirit being capable of creating storms and thunder.",
     importance: "This seal represents power, protection, and divine intervention. It embodies the awe-inspiring forces of nature and the belief in spirits that watch over and protect the people.",
-image: "/images/seal67.jpg"
+image: "/images/seal67.jpg",
+p5CodePath: "/lib/artworkRenderer67.js",
   },
   {
     id: 68,
     name: "The Seal of Kokopelli",
     origin: "Kokopelli is a fertility deity from Native American cultures, particularly the Hopi and Zuni. He is often depicted as a humpbacked flute player, associated with fertility, agriculture, and joy.",
     importance: "This seal symbolizes joy, music, and abundance. It represents the playful and creative aspects of life, as well as the renewal of nature.",
-image: "/images/seal68.jpg"
+image: "/images/seal68.jpg",
+p5CodePath: "/lib/artworkRenderer68.js",
   },
   {
     id: 69,
     name: "Seal of the Hopi Spider Woman",
     origin: "The Spider Woman is a key figure in Hopi mythology, known as a creator and a teacher. She played a crucial role in guiding humanity and imparting wisdom.",
     importance: "This seal represents creation, wisdom, and guidance. It embodies the nurturing aspect of creation and the interconnectedness of all life.",
-image: "/images/seal69.jpg"
+image: "/images/seal69.jpg",
+p5CodePath: "/lib/artworkRenderer69.js",
   },
   {
     id: 70,
     name: "The Seal of Coyote",
     origin: "Coyote is a prominent trickster figure in many Native American traditions. Known for his cunning and resourcefulness, Coyote stories often serve as lessons about the complexities of life.",
     importance: "This seal symbolizes adaptability, wit, and transformation. It represents the unpredictable nature of life and the importance of flexibility and humor in facing challenges.",
-image: "/images/seal70.jpg"
+image: "/images/seal70.jpg",
+p5CodePath: "/lib/artworkRenderer70.js",
   },
   {
     id: 71,
     name: "The Seal of Solomon",
     origin: "The Seal of Solomon is a legendary symbol associated with King Solomon, often depicted as a hexagram. It is believed to have been used by Solomon to command spirits and gain wisdom.",
     importance: "This seal represents wisdom, divine authority, and protection. It embodies the pursuit of knowledge and the power to harness both spiritual and earthly forces.",
-image: "/images/seal71.jpg"
+image: "/images/seal71.jpg",
+p5CodePath: "/lib/artworkRenderer71.js",
   },
   {
     id: 72,
     name: "David’s Star Seal",
     origin: "Known as the Star of David, this symbol is central to Jewish identity and represents the connection between God and humanity. It has been used throughout history as a symbol of protection.",
     importance: "This seal symbolizes faith, unity, and the relationship between the divine and the earthly. It represents the enduring strength of the Jewish people.",
-image: "/images/seal72.jpg"
+image: "/images/seal72.jpg",
+p5CodePath: "/lib/artworkRenderer72.js",
   },
   {
     id: 73,
     name: "The Seal of Shem",
     origin: "The Seal of Shem refers to the symbolic representation of Shem, one of Noah’s sons, often linked to monotheism and the spread of knowledge after the flood.",
     importance: "This seal represents continuity, tradition, and the spread of divine knowledge. It symbolizes the preservation of culture and belief through generations.",
-image: "/images/seal73.jpg"
+image: "/images/seal73.jpg",
+p5CodePath: "/lib/artworkRenderer73.js",
   },
   {
     id: 74,
     name: "The Ark of the Covenant Seal",
     origin: "The Ark of the Covenant is one of the most significant artifacts in Abrahamic religions, believed to contain the tablets of the Ten Commandments.",
     importance: "This seal represents divine law, sacredness, and the covenant between God and humanity. It embodies the idea of divine protection and the sanctity of faith.",
-image: "/images/seal74.jpg"
+image: "/images/seal74.jpg",
+p5CodePath: "/lib/artworkRenderer74.js",
   },
   {
     id: 75,
     name: "The Lion of Judah Seal",
     origin: "The Lion of Judah is a symbol that traces its origins to the tribe of Judah and is associated with strength, royalty, and the lineage of King David.",
     importance: "This seal represents courage, leadership, and the promise of redemption. It is also a symbol of the Messiah in Christian tradition.",
-image: "/images/seal75.jpg"
+image: "/images/seal75.jpg",
+p5CodePath: "/lib/artworkRenderer75.js",
   },
   {
     id: 76,
     name: "Archangel Michael Seal",
     origin: "Archangel Michael is one of the principal archangels in Christianity, Judaism, and Islam, known as a protector and leader of the heavenly armies.",
     importance: "This seal represents protection, justice, and spiritual warfare. It symbolizes the triumph of good over evil and the importance of faith.",
-image: "/images/seal76.jpg"
+image: "/images/seal76.jpg",
+p5CodePath: "/lib/artworkRenderer76.js",
   },
   {
     id: 77,
     name: "The Holy Grail Seal",
     origin: "The Holy Grail is a legendary artifact in Christian tradition, often associated with the Last Supper and the quest for divine grace.",
     importance: "This seal represents the pursuit of spiritual fulfillment, purity, and the divine mystery. It symbolizes the journey of faith and the quest for higher understanding.",
-image: "/images/seal77.jpg"
+image: "/images/seal77.jpg",
+p5CodePath: "/lib/artworkRenderer77.js",
   },
   {
     id: 78,
     name: "Seal of the Prophet Muhammad",
     origin: "This seal is associated with the Prophet Muhammad, the founder of Islam. It often symbolizes his role as the final prophet in the line of Abrahamic traditions.",
     importance: "This seal represents prophecy, divine revelation, and the spread of spiritual guidance. It embodies the core teachings of Islam and the unity of faith.",
-image: "/images/seal78.jpg"
+image: "/images/seal78.jpg",
+p5CodePath: "/lib/artworkRenderer78.js",
   },
   {
     id: 79,
     name: "Seal of the Kaaba",
     origin: "The Kaaba, located in Mecca, is the most sacred site in Islam. This seal represents the unity of Muslims in their faith and their direction of prayer.",
     importance: "This seal symbolizes unity, faith, and devotion. It represents the central role of the Kaaba in Islamic worship and the collective bond among Muslims.",
-image: "/images/seal79.jpg"
+image: "/images/seal79.jpg",
+p5CodePath: "/lib/artworkRenderer79.js",
   },
   {
     id: 80,
     name: "The Seal of El",
     origin: "El is a name used for the supreme deity in ancient Canaanite religion and is also found in early Hebrew texts. It represents the concept of a singular, all-powerful god.",
     importance: "This seal represents divinity, authority, and creation. It symbolizes the overarching power of the divine and the common root of monotheistic belief systems.",
-image: "/images/seal80.jpg"
+image: "/images/seal80.jpg",
+p5CodePath: "/lib/artworkRenderer80.js",
   },
   {
     id: 81,
@@ -697,7 +717,8 @@ image: "/images/seal80.jpg"
     origin: "The Templar Cross was the emblem of the Knights Templar, a powerful medieval order of warrior monks founded in the early 12th century.",
     history: "The cross symbolized the order's vow to protect Christian pilgrims and the Holy Land during the Crusades. It became an enduring symbol of courage and sacrifice.",
     importance: "The Templar Cross is emblematic of dedication to a higher cause, devotion, and mystery, as the order's secrets and influence remain subjects of intrigue.",
-image: "/images/seal81.jpg"
+image: "/images/seal81.jpg",
+p5CodePath: "/lib/artworkRenderer81.js",
   },
   {
     id: 82,
@@ -705,7 +726,8 @@ image: "/images/seal81.jpg"
     origin: "This seal represents the Holy Roman Empire, established by Charlemagne in 800 AD and later formalized as a political entity.",
     history: "The empire was considered a continuation of the Roman Empire, with deep religious and political implications. The seal often included an eagle, signifying imperial power.",
     importance: "The seal symbolizes authority, continuity of Roman traditions, and the influence of the church in political affairs across Europe.",
-image: "/images/seal82.jpg"
+image: "/images/seal82.jpg",
+p5CodePath: "/lib/artworkRenderer82.js",
   },
   {
     id: 83,
@@ -713,7 +735,8 @@ image: "/images/seal82.jpg"
     origin: "Avalon is a mythical island from Arthurian legend, believed to be a place of healing and magic.",
     history: "Associated with King Arthur's final resting place, Avalon was also where the legendary sword Excalibur was forged.",
     importance: "This seal represents the mystical aspects of Arthurian legend, emphasizing themes of healing, renewal, and the interplay between myth and reality.",
-image: "/images/seal83.jpg"
+image: "/images/seal83.jpg",
+p5CodePath: "/lib/artworkRenderer83.js",
   },
   {
     id: 84,
@@ -721,7 +744,8 @@ image: "/images/seal83.jpg"
     origin: "Merlin is the legendary wizard and advisor to King Arthur, originating in Celtic mythology and medieval literature.",
     history: "Known for his magic and prophecies, Merlin has become synonymous with wisdom, mystery, and power. His seal is often portrayed with symbols of alchemy and the arcane.",
     importance: "This seal is a symbol of wisdom, transformation, and the mysteries of the ancient world.",
-image: "/images/seal84.jpg"
+image: "/images/seal84.jpg",
+p5CodePath: "/lib/artworkRenderer84.js",
   },
   {
     id: 85,
@@ -729,7 +753,8 @@ image: "/images/seal84.jpg"
     origin: "The Holy Grail is a central element of Arthurian legend, believed to be the cup Jesus used at the Last Supper.",
     history: "The Grail has been depicted in countless legends as an object of desire and the source of divine power. The quest for the Grail symbolized spiritual enlightenment.",
     importance: "This seal symbolizes purity, the pursuit of divine truth, and the connection between humanity and the divine.",
-image: "/images/seal85.jpg"
+image: "/images/seal85.jpg",
+p5CodePath: "/lib/artworkRenderer85.js",
   },
   {
     id: 86,
@@ -737,7 +762,8 @@ image: "/images/seal85.jpg"
     origin: "King Arthur is the legendary ruler of Camelot, central to British folklore and literature.",
     history: "Arthur's legacy is defined by the Round Table, the Knights, and the values of chivalry and justice. His seal often includes the sword Excalibur.",
     importance: "The seal represents leadership, valor, and the ideals of unity and justice in times of darkness.",
-image: "/images/seal86.jpg"
+image: "/images/seal86.jpg",
+p5CodePath: "/lib/artworkRenderer86.js",
   },
   {
     id: 87,
@@ -745,7 +771,8 @@ image: "/images/seal86.jpg"
     origin: "The Knights Hospitaller were a medieval Catholic military order founded to provide care for pilgrims.",
     history: "The order became a military force during the Crusades, often seen as defenders of Christian territories. The seal featured a Maltese cross.",
     importance: "This seal symbolizes charity, protection, and resilience in defending one's beliefs and supporting those in need.",
-image: "/images/seal87.jpg"
+image: "/images/seal87.jpg",
+p5CodePath: "/lib/artworkRenderer87.js",
   },
   {
     id: 88,
@@ -753,7 +780,8 @@ image: "/images/seal87.jpg"
     origin: "The Black Madonna refers to various dark-skinned statues of the Virgin Mary, often venerated in Europe.",
     history: "These icons have been shrouded in mysticism and are linked to miracles and spiritual healing. They hold a significant place in the syncretism of Christian and earlier traditions.",
     importance: "The seal represents resilience, healing, and the blending of ancient and Christian symbols.",
-image: "/images/seal88.jpg"
+image: "/images/seal88.jpg",
+p5CodePath: "/lib/artworkRenderer88.js",
   },
   {
     id: 89,
@@ -761,7 +789,8 @@ image: "/images/seal88.jpg"
     origin: "The Fleur-de-Lis is a stylized lily, historically associated with French royalty.",
     history: "It became a symbol of purity and was adopted by the French monarchy as a symbol of their divine right to rule. It also appeared in various coats of arms across Europe.",
     importance: "This seal symbolizes royalty, purity, and the divine connection to leadership.",
-image: "/images/seal89.jpg"
+image: "/images/seal89.jpg",
+p5CodePath: "/lib/artworkRenderer89.js",
   },
   {
     id: 90,
@@ -769,7 +798,8 @@ image: "/images/seal89.jpg"
     origin: "Alchemy was an ancient practice that combined science, philosophy, and mysticism, aimed at transmuting matter and discovering eternal life.",
     history: "Alchemists were often shrouded in secrecy, seeking the Philosopher's Stone to turn base metals into gold. Their symbols included complex geometrical figures.",
     importance: "This seal represents transformation, the pursuit of knowledge, and the desire to uncover hidden truths.",
-image: "/images/seal90.jpg"
+image: "/images/seal90.jpg",
+p5CodePath: "/lib/artworkRenderer90.js",
   },
   {
     id: 91,
@@ -777,7 +807,8 @@ image: "/images/seal90.jpg"
     origin: "Athena is the Greek goddess of wisdom, warfare, and crafts.",
     history: "Often depicted with an owl and a spear, Athena was revered in ancient Greece as a protector of cities, particularly Athens, which was named in her honor.",
     importance: "The seal represents wisdom, strategy, and the power of knowledge and intellect.",
-image: "/images/seal91.jpg"
+image: "/images/seal91.jpg",
+p5CodePath: "/lib/artworkRenderer91.js",
   },
   {
     id: 92,
@@ -785,7 +816,8 @@ image: "/images/seal91.jpg"
     origin: "The Winged Victory, or Nike, was the Greek goddess of victory, often depicted with wings.",
     history: "The statue of Nike, found on the island of Samothrace, is one of the most celebrated sculptures of ancient Greece, symbolizing triumph.",
     importance: "This seal embodies victory, achievement, and the spirit of overcoming obstacles.",
-image: "/images/seal92.jpg"
+image: "/images/seal92.jpg",
+p5CodePath: "/lib/artworkRenderer92.js",
   },
   {
     id: 93,
@@ -793,7 +825,8 @@ image: "/images/seal92.jpg"
     origin: "The Delphic Oracle was a priestess at the Temple of Apollo in Delphi, revered for her prophecies.",
     history: "Ancient Greeks consulted the oracle for guidance on important matters, believing her words were inspired by Apollo.",
     importance: "This seal symbolizes foresight, divine wisdom, and the search for truth through spiritual insight.",
-image: "/images/seal93.jpg"
+image: "/images/seal93.jpg",
+p5CodePath: "/lib/artworkRenderer93.js",
   },
   {
     id: 94,
@@ -801,7 +834,8 @@ image: "/images/seal93.jpg"
     origin: "The Labyrinth is a famous myth from Crete, where the Minotaur was kept by King Minos.",
     history: "Designed by Daedalus, the Labyrinth was an intricate maze that represented complexity and entrapment.",
     importance: "The seal represents the journey through complexity, the struggle to find one's way, and the triumph of cleverness over obstacles.",
-image: "/images/seal94.jpg"
+image: "/images/seal94.jpg",
+p5CodePath: "/lib/artworkRenderer94.js",
   },
   {
     id: 95,
@@ -809,7 +843,8 @@ image: "/images/seal94.jpg"
     origin: "The Trojan Horse is from the Greek myth of the Trojan War, used by the Greeks to infiltrate and defeat Troy.",
     history: "The horse was a cunning ploy, symbolizing deceit and clever strategy, leading to Troy's downfall.",
     importance: "This seal represents strategy, deception, and the unexpected nature of events that change the course of history.",
-image: "/images/seal95.jpg"
+image: "/images/seal95.jpg",
+p5CodePath: "/lib/artworkRenderer95.js",
   },
   {
     id: 96,
@@ -817,7 +852,8 @@ image: "/images/seal95.jpg"
     origin: "Atlas is a Titan from Greek mythology, condemned to hold up the sky for eternity.",
     history: "Often depicted bearing the weight of the heavens, Atlas symbolizes endurance and the burden of responsibility.",
     importance: "This seal represents strength, endurance, and the challenges of bearing immense responsibility.",
-image: "/images/seal96.jpg"
+image: "/images/seal96.jpg",
+p5CodePath: "/lib/artworkRenderer96.js",
   },
   {
     id: 97,
@@ -825,7 +861,8 @@ image: "/images/seal96.jpg"
     origin: "Medusa, one of the Gorgons in Greek mythology, had snakes for hair and could turn onlookers to stone.",
     history: "Once a beautiful maiden, she was transformed into a monster by Athena. Perseus eventually defeated her using a mirrored shield.",
     importance: "This seal symbolizes transformation, the duality of beauty and danger, and the power of perception.",
-image: "/images/seal97.jpg"
+image: "/images/seal97.jpg",
+p5CodePath: "/lib/artworkRenderer97.js",
   },
   {
     id: 98,
@@ -833,7 +870,8 @@ image: "/images/seal97.jpg"
     origin: "Pegasus is the winged horse from Greek mythology, born from the blood of Medusa after she was slain.",
     history: "Pegasus was tamed by Bellerophon and helped him defeat the Chimera. The horse became a symbol of inspiration and the soul's journey.",
     importance: "This seal represents freedom, inspiration, and the pursuit of lofty ideals.",
-image: "/images/seal98.jpg"
+image: "/images/seal98.jpg",
+p5CodePath: "/lib/artworkRenderer98.js",
   },
   {
     id: 99,
@@ -841,7 +879,8 @@ image: "/images/seal98.jpg"
     origin: "The Golden Fleece was the object of the Argonauts' quest in Greek mythology, guarded by a dragon.",
     history: "Jason and the Argonauts sought the fleece as a symbol of kingship and authority, enduring many trials along the way.",
     importance: "This seal symbolizes the quest for greatness, leadership, and the trials faced on the path to success.",
-image: "/images/seal99.jpg"
+image: "/images/seal99.jpg",
+p5CodePath: "/lib/artworkRenderer99.js",
   },
   {
     id: 100,
@@ -849,6 +888,7 @@ image: "/images/seal99.jpg"
     origin: "Achilles was the greatest Greek warrior in the Trojan War, central to Homer's Iliad.",
     history: "Known for his near invincibility, except for his heel, Achilles represented martial prowess and tragic heroism.",
     importance: "This seal represents strength, heroism, and the vulnerability that lies within even the greatest of warriors.",
-image: "/images/seal100.jpg"
+image: "/images/seal100.jpg",
+p5CodePath: "/lib/artworkRenderer100.js",
   },
 ];
