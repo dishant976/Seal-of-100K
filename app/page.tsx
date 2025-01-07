@@ -7,6 +7,8 @@ import type { Seal } from './sealsData';
 
 /** Card for each Seal */
 const SealCard = ({ seal, onClick }: { seal: Seal; onClick: () => void }) => {
+  console.log('Rendering SealCard for:', seal.name);
+
   return (
     <div
       onClick={onClick}
@@ -29,8 +31,11 @@ const SealCard = ({ seal, onClick }: { seal: Seal; onClick: () => void }) => {
 
 /** Modal for displaying Seal details and opening HD sketch */
 const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
+  console.log('Rendering Modal for:', seal.name);
+
   const openP5Window = () => {
-    const newWindow = window.open('', '_blank', 'width=800,height=600');
+    console.log('Opening HD Artwork window for:', seal.name);
+    const newWindow = window.open('', '_blank', 'width=windowWidth,height=windowHeight');
     if (newWindow) {
       newWindow.document.write(`
         <!DOCTYPE html>
@@ -55,6 +60,8 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
         </html>
       `);
       newWindow.document.close();
+    } else {
+      console.error('Failed to open new window for HD Artwork');
     }
   };
 
@@ -104,8 +111,10 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
 /** Main Home Page */
 export default function Home() {
   const [selectedSeal, setSelectedSeal] = useState<Seal | null>(null);
+  console.log('Rendering Home component');
 
   const openStrategicReserve = () => {
+    console.log('Opening Strategic Reserve modal');
     const newWindow = window.open(
       '',
       '_blank',
@@ -136,6 +145,8 @@ export default function Home() {
           </body>
         </html>
       `);
+    } else {
+      console.error('Failed to open new window for Strategic Reserve');
     }
   };
 
@@ -197,9 +208,12 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {sealsData.map((seal) => (
-          <SealCard key={seal.id} seal={seal} onClick={() => setSelectedSeal(seal)} />
-        ))}
+        {sealsData.map((seal) => {
+          console.log('Rendering Seal:', seal.name);
+          return (
+            <SealCard key={seal.id} seal={seal} onClick={() => setSelectedSeal(seal)} />
+          );
+        })}
       </div>
 
       {selectedSeal && <Modal seal={selectedSeal} onClose={() => setSelectedSeal(null)} />}
