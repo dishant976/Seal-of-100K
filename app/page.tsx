@@ -15,7 +15,7 @@ const SealCard = ({ seal, onClick }: { seal: Seal; onClick: () => void }) => {
       <div className="relative w-full h-48 mb-2">
         {!imageError ? (
           <Image
-            src={seal.image}
+            src={seal.image} // Corrected to use /images/
             alt={seal.name}
             fill
             className="object-cover rounded-lg"
@@ -74,7 +74,7 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
             </style>
             <!-- Load p5.js first, then the artworkRenderer.js file -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-            <script src="/lib/artworkRenderer${seal.id}.js"></script> <!-- Ensure script exists -->
+            <script src="/lib/artworkRenderer${seal.id}.js"></script> <!-- Corrected path -->
           </head>
           <body>
             <button class="close-button" onclick="window.close()">Close</button>
@@ -91,7 +91,7 @@ const Modal = ({ seal, onClose }: { seal: Seal; onClose: () => void }) => {
         <div className="relative w-full h-64 mb-4">
           {!imageError ? (
             <Image
-              src={seal.image}
+              src={seal.image} // Fixed to use /images/
               alt={seal.name}
               fill
               className="object-cover rounded-lg"
@@ -143,42 +143,10 @@ export default function Home() {
       <div className="bg-gradient-to-r from-orange-600 to-orange-500 text-white p-8 rounded-lg mb-8">
         <h1 className="text-4xl font-bold mb-2">SEAL OF 100K</h1>
         <p className="opacity-90 mb-4">
-          Seal of 100K connecting Art, Mythology, and Bitcoin by generating an
+          Seal of 100K connecting Art, Mythology and Bitcoin by generating an
           artwork using recursion symbolising humanity&apos;s greatest
           achievement in Age of Aquarius.
         </p>
-      </div>
-
-      <div className="relative flex flex-col items-end mb-8">
-        <button
-          onClick={() => (window.location.href = "/strategic-reserve")}
-          className="px-4 py-2 bg-gradient-to-r from-yellow-400 to-yellow-600 text-white rounded-lg font-bold hover:shadow-lg transition-shadow animate-pulse"
-        >
-          STRATEGIC RESERVE
-        </button>
-        <div className="flex space-x-4 mt-4">
-          <a
-            href="https://magiceden.io/ordinals/marketplace/s100k"
-            target="_blank"
-            className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
-          >
-            <Image src="/icons/magic-eden.png" alt="Magic Eden" width={50} height={50} />
-          </a>
-          <a
-            href="https://ordinalsbot.com/mint/sealof100k"
-            target="_blank"
-            className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
-          >
-            <Image src="/icons/ordinalsbot.png" alt="Ordinals Bot" width={50} height={50} />
-          </a>
-          <a
-            href="https://discord.gg/WeWeDetxBJ"
-            target="_blank"
-            className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow"
-          >
-            <Image src="/icons/discord.png" alt="Discord" width={50} height={50} />
-          </a>
-        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">

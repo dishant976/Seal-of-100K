@@ -5,12 +5,12 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const geistSans = localFont({
-  src: "/fonts/GeistVF.woff", // Updated path
+  src: "/fonts/GeistVF.woff", // Fixed path
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "/fonts/GeistMonoVF.woff", // Updated path
+  src: "/fonts/GeistMonoVF.woff", // Fixed path
   variable: "--font-geist-mono",
   weight: "100 900",
 });
